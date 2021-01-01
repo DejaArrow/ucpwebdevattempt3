@@ -1,0 +1,15 @@
+.lecture-theatre{
+    justify-content: left;
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.welcome-header{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+    
+}
