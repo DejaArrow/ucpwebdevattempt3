@@ -31,9 +31,10 @@ export const MenuItems = [
     },
     {
         title: 'Contact Us',
-        url:'#',
+        url:'/ContactUs',
         cName: 'nav-links'
     },
+ 
     {
         title: 'Sign In',
         url:'#',

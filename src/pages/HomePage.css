@@ -1,4 +1,4 @@
-.HomePage {
+.readMorePage {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -8,25 +8,16 @@
 }
 .readMore
 {
+    color: #000;
     text-align: right;
     font-size: 16px;
+    padding-bottom: 2rem;
 }
 
-.toolbarLink:link{
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-  }
+.readMore a:link { color: #000; }
+.readMore a:visited { color: #000; }
+.readMore a:hover { color: #000; }
+.readMore a:active { color: #000; }
 
-  .toolbarLink:visited{
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-  }
 
-  .toolbarLink:hover {
-    color: peachpuff;
-  }
-
-  .toolbarLink:active {
-    color: black;
-  }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');

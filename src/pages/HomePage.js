@@ -1,5 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import { Link } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import './HomePage.css';
@@ -61,7 +62,7 @@ export default function HomePage() {
              description = "You can apply through clearing if you've..." />  
             
           </Grid>
-          <div className = "readMore"> >>> Read More News... </div>
+          <div className = "readMore"> <Link to='/NewsEvents'>Read More News... </Link></div>
 
           <Grid container spacing={4}>
           

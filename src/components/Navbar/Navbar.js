@@ -16,7 +16,7 @@ class Navbar extends Component {
 
     render() {
         return(
-            <nav className="NavbarItems">
+            <nav className="NavbarItems" >
                 <h1> <Link to='/'><img src={Logo} className="navbar-logo" /> </Link>  </h1>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
@@ -31,7 +31,7 @@ class Navbar extends Component {
                             </li>
                         )
                     })}
-                      <Button>Sign In</Button>
+                      <Button >Sign In</Button>
                 </ul>
               
             </nav>
