@@ -23,8 +23,9 @@
     
 S  .form-success {
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 80px;
+    padding-top: 10px;
     color: #fff;
   }
   
@@ -102,24 +103,32 @@ S  .form-success {
   
   .form-input-btn:hover {
     cursor: pointer;
-    background: linear-gradient(
-      90deg,
-      rgb(39, 143, 255) 0%,
-      rgb(12, 99, 250) 100%
-    );
+    background: #f09575;
     transition: all 0.4s ease-out;
   }
   
-  .form-input-login {
+  .checkbox-text{
+    font-size: small;
+    color: #333;
+
+  }
+
+  .mb-3 {
+      justify-content: left;
+  }
+  .form-input-required{
     font-size: 0.8rem;
     margin-top: 10px;
-    color: #fff;
+    color: #333 ;
     width: 80%;
     text-align: center;
   }
   
-  .form-input-login a {
-    text-decoration: none;
-    color: #27cdff;
-    font-weight: 600;
+  .form-confirm{
+    display: flex;
+    justify-content: center;
+    border-radius: 0 10px 10px 0;
+    background: linear-gradient(90deg, #31b7bc 0%, #b2dddf 100%);
+    color: #333;
+    font-size: 10px
   }

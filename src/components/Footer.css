@@ -4,7 +4,7 @@
     width: 100%;
     color: white;
     background-color: #005c6e ;
-    text-align: center;
+    text-align: auto;
     margin: auto;    
 
 }
@@ -30,3 +30,24 @@
 .CopyrightLink:active {
   color: white;
 }
+
+.social-col{
+  justify-content: right;
+}
+
+.social-list{
+  list-style-type: none;
+}
+
+.footer-h3{
+  color: #f08575
+}
+
+.footer-list {
+  list-style-type: none;
+}
+
+.address-list{
+  list-style-type: none;
+}
+

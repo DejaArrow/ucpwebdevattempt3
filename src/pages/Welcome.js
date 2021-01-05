@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
           <div className={classes.root}>
               <Grid container spacing={1}>
               <Grid container item xs={6} spacing={1} style = {{paddingTop:'25px', paddingBottom: '10px', justifyContent:"center"}}>
-              <div><img src={LectureTheatre} className='lecture-theatre' /></div>
+              <div><img src={LectureTheatre} className='lecture-theatre' alt='Image of Lecture theatre' /></div>
               </Grid>
               <Grid container item xs={6} spacing={1} style = {{paddingTop:'25px', paddingBottom: '10px', justifyContent:"center"}}>
               <div className='welcome-text'>We very much care about you as individuals and one of our key objectives is to ensure we listen
@@ -55,6 +55,7 @@ const useStyles = makeStyles((theme) => ({
     
       </Grid>
     </div>
+    
 
             </main>         
         </Container>

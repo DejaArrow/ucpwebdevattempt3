@@ -17,6 +17,9 @@ export default function validateInput(values) {
       errors.phone = 'Invalid Phone Number';
     }
   
-   
+    if (!values.comment) {
+        errors.comment = 'Comment Required';
+        
+    }
     return errors;
   }

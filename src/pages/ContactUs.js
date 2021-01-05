@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-
+import Box from '@material-ui/core/Box'
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import Footer from '../components/Footer';
@@ -31,8 +31,8 @@ const useStyles = makeStyles((theme) => ({
             </Grid>
             
           
-          <Grid container item xs={6} spacing={1} style = {{paddingTop:'25px', paddingBottom: '10px', justifyContent:"center"}}><div className='contact-info'>
-              Phone
+          <Grid container item xs={6} spacing={1} style = {{paddingTop:'25px', paddingBottom: '10px', justifyContent:"right"}}>
+          <Box bgcolor='#31b7bc' color='#fff' p={2} className='contact-box'>Phone
               <br />
               01733 214466
               <br /><br />
@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
               Peterborough, Cambridgeshire<br />
               PE1 4DZ
               
-            </div>
+            </Box>
             </Grid>
           </Grid>
 

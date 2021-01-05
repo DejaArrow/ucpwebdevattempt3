@@ -1,7 +1,8 @@
-.contact-box{
+.privacy{
     justify-content: right;
     font-family: 'Monsterrat', sans-serif;
-    width: 300px;
-    height: fit-content;
 }
 
+.privacy-headings{
+    color: #333;
+}
