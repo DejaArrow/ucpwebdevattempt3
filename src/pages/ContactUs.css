@@ -1,7 +1,12 @@
 .contact-box{
+    margin-top: 25px;
+    display: flex;
     justify-content: right;
-    font-family: 'Monsterrat', sans-serif;
-    width: 300px;
+    border-radius: 10px 10px 10px 10px;
+    background: linear-gradient(90deg, #b2dddf 0%, #31b7bc 100%);
+    color: #333;
+    font-size: 25px;
+    width:fit-content;
     height: fit-content;
 }
 

@@ -15,6 +15,11 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
+        title: 'Budget Calculator',
+        url:'/Calculator',
+        cName: 'nav-links'
+    },
+    {
         title: 'Support & Policies',
         url:'#',
         cName: 'nav-links'

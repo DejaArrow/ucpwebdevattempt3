@@ -83,38 +83,39 @@ const ContactForm = ({ submitForm }) => {
         <div className='form-inputs'>
         <label className='form-label'> I would like to be contacted by: </label>
         </div>
-        {['checkbox'].map((type) => (
-        <div key={`default-${type}`} className="mb-3">
-        <input  
-        type={type}
-        id='email'
-        label='Email'
-         /> <Text className='checkbox-text'>Email</Text>
-         </div>
-         ))}
-         {['checkbox'].map((type) => (
-        <div key={`default-${type}`} className="mb-3">
-        <input  
-        type={type}
-        id='phone'
-        label='Phone'
-         /> <Text className='checkbox-text'>Phone</Text>
-         </div>
-         ))}
-         {['checkbox'].map((type) => (
-        <div key={`default-${type}`} className="mb-3">
-        <input  
-        type={type}
-        id='text-message'
-        label='Text message'
-         /> <Text className='checkbox-text'>Text Message</Text>
-         </div>
-         ))}
+        <div className='checkboxes'>
+              {['checkbox'].map((type) => (
+              <div key={`default-${type}`} className="mb-3">
+              <input  
+              type={type}
+              id='email'
+              label='Email'
+              /> <Text className='checkbox-text'>Email</Text>
+              </div>
+              ))}
+              {['checkbox'].map((type) => (
+              <div key={`default-${type}`} className="mb-3">
+              <input  
+              type={type}
+              id='phone'
+              label='Phone'
+              /> <Text className='checkbox-text'>Phone</Text>
+              </div>
+              ))}
+              {['checkbox'].map((type) => (
+              <div key={`default-${type}`} className="mb-3">
+              <input  
+              type={type}
+              id='text-message'
+              label='Text message'
+              /> <Text className='checkbox-text'>Text Message</Text>
+              </div>
+              ))}
 
-        
-        <button className='form-input-btn' type='submit'>
+        </div>
+        <div><button className='form-input-btn' type='submit'>
           Submit Enquiry
-        </button>
+        </button></div>
         <span className='form-input-required'>
           * Required Fields. 
         </span>

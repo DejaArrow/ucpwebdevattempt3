@@ -1,7 +1,7 @@
 export const FooterItems = [
     {
-        title: 'Privacy and Cookies',
-        url:'/PrivacyCookies',
+        title: 'Privacy',
+        url:'./PrivacyCookies',
         cName: 'footer-links'
     },
     {
