@@ -18,10 +18,10 @@ class Navbar extends Component {
         return(
             <nav className="NavbarItems" >
                 <h1> <Link to='/'><img src={Logo} className="navbar-logo" /> </Link>  </h1>
-                <div className="menu-icon" onClick={this.handleClick}>
+                <div className="menu-icon" onClick={this.handleClick}  >
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
-                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'} >
                     {MenuItems.map((item, index) => {
                         return (
                             <li key={index} className={item.cName}>

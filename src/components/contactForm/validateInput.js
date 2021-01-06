@@ -1,8 +1,8 @@
 export default function validateInput(values) {
     let errors = {};
   
-    if (!values.name.trim()) {
-      errors.name = 'Username required';
+    if (!values.name) {
+      errors.name = 'Name required';
     }
     
   
